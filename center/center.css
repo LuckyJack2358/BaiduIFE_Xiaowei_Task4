@@ -1,0 +1,35 @@
+
+#allcontent{
+	
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -200px;
+	margin-top: -100px;
+	
+	width: 400px;
+	height: 200px;
+	
+	
+	
+}
+#center{
+	background-color: #ccc;
+	width: 400px;
+	height: 200px;
+}
+#aboveQuarter,#bellowQuarter{
+	background-color: #fc0;
+	width: 50px;
+	height: 50px;
+	position: absolute;
+}
+#aboveQuarter{
+	border-bottom-right-radius:50px; 
+	
+}
+#bellowQuarter{
+	border-top-left-radius: 50px;
+	bottom: 0px;
+	right:0px;
+}
